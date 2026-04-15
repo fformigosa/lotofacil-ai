@@ -1,0 +1,11 @@
+# Render Configuration for Streamlit App
+
+# This file is used to configure the Streamlit app deployment on Render.
+
+# Specify the port on which Streamlit should run.
+port: 10000
+
+# Specify the environment variables if needed
+env:
+  - name: STREAMLIT_SERVER_PORT
+    value: "10000"
